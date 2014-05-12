@@ -1,8 +1,8 @@
 
 public class FizzBuzz {
 
-	public static int calculate(int aNumber) {
-		return aNumber;
+	public static String calculate(int aNumber) {
+		return "1";
 	}
 
 }
