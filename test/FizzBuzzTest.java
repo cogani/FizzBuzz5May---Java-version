@@ -18,4 +18,11 @@ public class FizzBuzzTest {
 		
 		assertEquals("2", result);
 	}
+	
+	@Test
+	public void will_return_fizz_when_3_is_supplied() {
+		String result = FizzBuzz.calculate(3);
+		
+		assertEquals("fizz", result);
+	}
 }

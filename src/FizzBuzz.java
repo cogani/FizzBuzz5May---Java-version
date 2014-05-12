@@ -2,7 +2,10 @@
 public class FizzBuzz {
 
 	public static String calculate(int aNumber) {
-		return Integer.toString(aNumber);
+		if(aNumber==3)
+			return "fizz";
+		
+		return Integer.toString(aNumber);			
 	}
 
 }
