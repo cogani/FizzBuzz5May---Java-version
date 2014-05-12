@@ -39,4 +39,11 @@ public class FizzBuzzTest {
 		
 		assertEquals("fizz", result);
 	}
+	
+	@Test
+	public void will_return_buzz_when_10_is_supplied() {
+		String result = FizzBuzz.calculate(10);
+		
+		assertEquals("buzz", result);
+	}	
 }
