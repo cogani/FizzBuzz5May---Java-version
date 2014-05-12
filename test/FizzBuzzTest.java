@@ -11,4 +11,11 @@ public class FizzBuzzTest {
 		
 		assertEquals("1", result);
 	}
+	
+	@Test
+	public void will_return_2_when_2_is_supplied() {
+		String result = FizzBuzz.calculate(2);
+		
+		assertEquals("2", result);
+	}
 }
