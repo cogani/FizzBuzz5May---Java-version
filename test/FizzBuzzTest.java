@@ -31,5 +31,12 @@ public class FizzBuzzTest {
 		String result = FizzBuzz.calculate(5);
 		
 		assertEquals("buzz", result);
-	}	
+	}
+	
+	@Test
+	public void will_return_buzz_when_6_is_supplied() {
+		String result = FizzBuzz.calculate(6);
+		
+		assertEquals("fizz", result);
+	}
 }

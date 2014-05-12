@@ -2,7 +2,7 @@
 public class FizzBuzz {
 
 	public static String calculate(int aNumber) {
-		if(aNumber==3)
+		if(aNumber%3==0)
 			return "fizz";
 		
 		if(aNumber==5)
